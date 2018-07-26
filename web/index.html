@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Bootstrap Core CSS -->
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Search Engine</title>
+</head>
+<body>
+<div class="container">
+    <img src="https://www.scu.edu/media/offices/umc/scu-brand-guidelines/visual-identity-amp-photography/visual-identity-toolkit/logos-amp-seals/Mission-Horizontal-PMS201.png" width = "50%" alt="logo">
+    <form action="SearchEngine" method="get">
+	<div class="row">
+		<div class="inner-container">
+    		<div class="input-group">
+                    <!-- <h3>Input the Query Word</h3> -->
+                        <input type = "text" name="query" placeholder="Input the query word..." id = "searchBar">
+      			<span class="input-group-btn">
+                            <input type="submit" value="Search" id ="searchBtn">
+      			</span>
+    		</div>
+  		</div>
+	</div>
+    </form>
+
+	<div class="row" id="searchContent">
+		<div class="inner-container">
+			<p id="displayContent"></p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

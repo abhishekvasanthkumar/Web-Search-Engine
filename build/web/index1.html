@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Search Engine</title>
+</head>
+<body>
+<div class="container">
+    
+    <form action="SearchEngine" method="get">
+	<div class="row">
+		<div class="inner-container">
+    		<div class="input-group">
+                    <h3>Input the Query Word</h3>
+                        <input type = "text" name="query">
+      			<span class="input-group-btn">
+                            <input type="submit" value="Search">
+      			</span>
+    		</div>
+  		</div>
+	</div>
+    </form>
+
+	<div class="row" id="searchContent">
+		<div class="inner-container">
+			<p id="displayContent"></p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
